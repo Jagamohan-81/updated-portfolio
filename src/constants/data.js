@@ -1,10 +1,3 @@
-/*
-    File: data.js
-    Author: Ed Park
-    Copyright: 2023 - Ed Park https://edpark.space
-    Version: 1.0
-*/
-
 import * as Icons from "../components/Icons";
 
 export const navMenu = [
@@ -323,21 +316,25 @@ export const techSkills = [
     category: "Front-End Development",
     skills: [
       {
-        title: "HTML",
+        title: "HTML 5",
         Icon: Icons.HtmlIcon,
       },
       {
-        title: "CSS",
+        title: "CSS 3",
         Icon: Icons.CSSIcon,
       },
 
       {
-        title: "NextJs",
+        title: "Next Js",
         Icon: Icons.NextJSIcon,
       },
       {
-        title: "React",
+        title: "React Js",
         Icon: Icons.ReactIcon,
+      },
+      {
+        title: "Angular Js",
+        Icon: Icons.AngularIcon,
       },
 
       {
@@ -354,11 +351,11 @@ export const techSkills = [
     category: "Back-End Development",
     skills: [
       {
-        title: "NodeJS",
+        title: "Node Js",
         Icon: Icons.NodeJSIcon,
       },
       {
-        title: "ExpressJS",
+        title: "Express Js",
         Icon: Icons.ExpressJSIcon,
       },
       {
@@ -437,33 +434,33 @@ export const techSkills = [
         title: "Responsive Design",
         Icon: Icons.ResponsiveDesignIcon,
       },
-      {
-        title: "Pen and Paper",
-        Icon: Icons.SketchingIcon,
-      },
+      // {
+      //   title: "Pen and Paper",
+      //   Icon: Icons.SketchingIcon,
+      // },
       {
         title: "Figma",
         Icon: Icons.FigmaIcon,
       },
     ],
   },
-  {
-    category: "Microsoft Products",
-    skills: [
-      {
-        title: "Sharepoint",
-        Icon: Icons.SharepointIcon,
-      },
-      {
-        title: "Excel",
-        Icon: Icons.ExcelIcon,
-      },
-      {
-        title: "Access",
-        Icon: Icons.AccessIcon,
-      },
-    ],
-  },
+  // {
+  //   category: "Microsoft Products",
+  //   skills: [
+  //     {
+  //       title: "Sharepoint",
+  //       Icon: Icons.SharepointIcon,
+  //     },
+  //     {
+  //       title: "Excel",
+  //       Icon: Icons.ExcelIcon,
+  //     },
+  //     {
+  //       title: "Access",
+  //       Icon: Icons.AccessIcon,
+  //     },
+  //   ],
+  // },
   {
     category: "Others",
     skills: [
