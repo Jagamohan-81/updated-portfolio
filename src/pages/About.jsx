@@ -24,18 +24,18 @@ export default function About() {
         digital presence.
       </p>
       <p className="text-justify">
-        Prior to my current role, I gained valuable experience as a MERN Stack
-        Trainee at Masai School, where I served as a dedicated Student
-        Coordinator, providing invaluable support to fellow students and
-        actively participating in team-based development projects.
-      </p>
-      <p className="text-justify">
         I am a Full Stack Developer with a passion for crafting dynamic and
         user-centric web applications. I have a Bachelor's degree from Utkal
         University. Currently, I am working as an Associate Software Engineer at
         Indus Net Technologies Pvt. Ltd., where I have successfully
         restructured, modularized, and modernized outdated code bases, resulting
         in cost reduction and a 15% improvement in functionality.
+      </p>
+      <p className="text-justify">
+        Prior to my current role, I gained valuable experience as a MERN Stack
+        Trainee at Masai School, where I served as a dedicated Student
+        Coordinator, providing invaluable support to fellow students and
+        actively participating in team-based development projects.
       </p>
       <p className="text-justify">
         Proficient in a wide range of technologies including React.js, Node.js,
