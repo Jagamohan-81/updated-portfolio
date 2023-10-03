@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://edpark.space/" target="_blank"><img align="center" src="public/assets/images/EdParkLogo.svg" height="125" /></a>
+<a href="https://edpark.space/" target="_blank"><img align="center" src="public/jagamohan.png" height="125" /></a>
 </p>
 
 <h1 align="center">Jagamohan Portfolio Website</h1>
