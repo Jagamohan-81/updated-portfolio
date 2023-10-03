@@ -29,7 +29,7 @@ Welcome to my web developer portfolio. This is a space to showcase my passion fo
 - Responsive design
 - Custom 404 page
 
-![Particle animation section of my portfolio](public/assets/portfolio-preview.gif)
+<!-- ![Particle animation section of my portfolio](public/assets/portfolio-preview.gif) -->
 
 ## Ideas for Future Implementation
 
