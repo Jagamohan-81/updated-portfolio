@@ -8,7 +8,7 @@
 import { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { CloseIcon } from "./Icons";
-
+import ImageSlider from "./ImageSlider";
 ProjectModal.propTypes = {
   projectId: PropTypes.string.isRequired,
   projectData: PropTypes.object.isRequired,
@@ -80,8 +80,8 @@ export default function ProjectModal({ projectId, projectData }) {
             onClick={toggleDialog}
           >
             <img
-              src={projectData.src}
-              alt={projectData.altText}
+              src={projectData.image[0].src}
+              alt={projectData.image[0].altText}
               className="w-full h-full"
             />
           </button>
@@ -110,11 +110,15 @@ export default function ProjectModal({ projectId, projectData }) {
           <h4 className="text-center font-extrabold ml-auto mr-auto">
             {projectData.title}
           </h4>
-          <img
-            className="border-2 border-primBlue-200 w-[100%] object-cover object-top max-h-[350px] ml-auto mr-auto"
-            src={projectData.src}
-            alt={projectData.altText}
-          />
+          {projectData.image.length > 1 ? (
+            <ImageSlider images={projectData.image} />
+          ) : (
+            <img
+              className="border-2 border-primBlue-200 w-[100%] object-cover object-top max-h-[350px] ml-auto mr-auto"
+              src={projectData.image[0].src}
+              alt={projectData.image[0].altText}
+            />
+          )}
           {projectData.details.description !== null && (
             <>
               <h5 className="text-center ml-auto mr-auto">About</h5>

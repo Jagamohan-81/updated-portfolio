@@ -21,9 +21,129 @@ export const navMenu = [
 
 export const projects = [
   {
-    title: "Alkem Marketplace",
-    src: "/assets/images/projects/alkem.png",
-    altText: "Screenshot of Alkem Marketplace home page",
+    title: "Run Promo - A Shopify App (DotProsucts)",
+    image: [
+      {
+        src: "/assets/images/projects/run-promo-1.png",
+        altText: "Screenshot of Alkem Marketplace home page",
+      },
+      {
+        src: "/assets/images/projects/run-promo-2.png",
+        altText: "Screenshot of Alkem Marketplace home page",
+      },
+    ],
+    ariaLabel:
+      "Opens modal window with more information about the Alkem Marketplace web project",
+    details: {
+      description:
+        "The Shopify Promotion Management App is a Software as a Service (SaaS) application tailored for Shopify sellers to manage promotions effectively. It enables users to create and customize promotions, enhancing marketing capabilities and driving business growth for Shopify stores. The app features scheduling functionality to set and automate promotion timings, optimizing marketing strategies and increasing sales potential. The user interface is designed using the Polaris design system for a seamless and visually captivating experience. The app ensures efficient data exchange and operation through seamless communication with the Shopify platform via REST API and GraphQL.",
+      technologies: [
+        {
+          title: "HTML",
+          Icon: Icons.HtmlIcon,
+        },
+        {
+          title: "CSS",
+          Icon: Icons.CSSIcon,
+        },
+
+        {
+          title: "React Js",
+          Icon: Icons.ReactIcon,
+        },
+        {
+          title: "ExpressJS",
+          Icon: Icons.ExpressJSIcon,
+        },
+        {
+          title: "NodeJs",
+          Icon: Icons.NodeJSIcon,
+        },
+        {
+          title: "Database",
+          Icon: Icons.PostgreSqlIcon,
+        },
+
+        {
+          title: "API",
+          Icon: Icons.APIIcon,
+        },
+        {
+          title: "JavaScript",
+          Icon: Icons.JavascriptIcon,
+        },
+      ],
+      url: "https://apps.shopify.com/promolane",
+      githubUrl: null,
+    },
+  },
+  {
+    title: "Ticket Mnagement App",
+    image: [
+      {
+        src: "/assets/images/projects/ticket-management-1.png",
+        altText: "Screenshot of Alkem Marketplace home page",
+      },
+      {
+        src: "/assets/images/projects/ticket-management-2.png",
+        altText: "Screenshot of Alkem Marketplace home page",
+      },
+    ],
+
+    ariaLabel:
+      "Opens modal window with more information about the Alkem Marketplace web project",
+    details: {
+      description:
+        "The Ticket Management App is a Jira-like application designed for efficient task management. It includes features such as ticket registration, assignee management, and permission control. The app supports a three-step workflow (To-Do, In Progress, Done) and uses a linked-list data structure for prioritized sorting of tickets. Users can enjoy drag-and-drop functionality within and between columns, and there are user permissions to control modifications and deletions.",
+      technologies: [
+        {
+          title: "HTML",
+          Icon: Icons.HtmlIcon,
+        },
+        {
+          title: "CSS",
+          Icon: Icons.CSSIcon,
+        },
+
+        {
+          title: "React Js",
+          Icon: Icons.ReactIcon,
+        },
+        {
+          title: "ExpressJS",
+          Icon: Icons.ExpressJSIcon,
+        },
+        {
+          title: "NodeJs",
+          Icon: Icons.NodeJSIcon,
+        },
+        {
+          title: "Database",
+          Icon: Icons.PostgreSqlIcon,
+        },
+
+        {
+          title: "API",
+          Icon: Icons.APIIcon,
+        },
+        {
+          title: "JavaScript",
+          Icon: Icons.JavascriptIcon,
+        },
+      ],
+      url: null,
+      githubUrl: "https://github.com/Jagamohan-81/ticket-management",
+    },
+  },
+  {
+    title: "Alkem Marketplace (INT)",
+    image: [
+      {
+        src: "/assets/images/projects/alkem.png",
+        altText: "Screenshot of Alkem Marketplace home page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the Alkem Marketplace web project",
     details: {
@@ -70,9 +190,14 @@ export const projects = [
     },
   },
   {
-    title: "INT-3.0",
-    src: "/assets/images/projects/int3-0.png",
-    altText: "Screenshot of  INT-3.0 page",
+    title: "INT-3.0 (INT)",
+    image: [
+      {
+        src: "/assets/images/projects/int3-0.png",
+        altText: "Screenshot of  INT-3.0 page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the ThreeSeeds web project",
     details: {
@@ -115,8 +240,13 @@ export const projects = [
   },
   {
     title: "School Management System",
-    src: "/assets/images/projects/sms.png",
-    altText: "Screenshot of School Management System home page",
+    image: [
+      {
+        src: "/assets/images/projects/sms.png",
+        altText: "Screenshot of School Management System home page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the School Management System web project",
     details: {
@@ -171,8 +301,13 @@ export const projects = [
   },
   {
     title: "Dynamic Scorecard Generator",
-    src: "/assets/images/projects/scorecard.png",
-    altText: "Screenshot of Dynamic Scorecard  home page",
+    image: [
+      {
+        src: "/assets/images/projects/scorecard.png",
+        altText: "Screenshot of Dynamic Scorecard  home page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the Dynamic Scorecard project",
     details: {
@@ -203,8 +338,13 @@ export const projects = [
   },
   {
     title: "Online Consult With Doctor",
-    src: "/assets/images/projects/online-doctor.png",
-    altText: "Screenshot of Dynamic Scorecard  home page",
+    image: [
+      {
+        src: "/assets/images/projects/online-doctor.png",
+        altText: "Screenshot of Dynamic Scorecard  home page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the Dynamic Scorecard project",
     details: {
@@ -235,8 +375,13 @@ export const projects = [
   },
   {
     title: "Classic Tic Tac Toe",
-    src: "/assets/images/projects/tic-tac-toe.png",
-    altText: "Screenshot of tic Tac Toe  home page",
+    image: [
+      {
+        src: "/assets/images/projects/tic-tac-toe.png",
+        altText: "Screenshot of tic Tac Toe  home page",
+      },
+    ],
+
     ariaLabel:
       "Opens modal window with more information about the tic Tac Toe project",
     details: {
@@ -501,8 +646,26 @@ export const softSkills = [
 
 export const workExp = [
   {
-    company: "Indus Net Technologies Pvt Ltd",
+    company: "Dot Product Solutions LLP",
     location: "Remote",
+    positions: [
+      {
+        title: "Software Development Engineer - I",
+        startDate: new Date(2022, 8),
+        endDate: "present",
+      },
+    ],
+    tasks: [
+      "Contributed to the growth of an AI-based social media engagement app, increasing audience engagement and interaction by 20%.",
+      "Spearheaded the development of a Shopify promotion management app, enhancing marketing efficiency for Shopify store owners by 15%.",
+      "Implemented a Jira-like interface and workflow organization in a ticket creation app, boosting task management efficiency by 25% with drag-and-drop functionality and prioritized sorting.",
+      "Actively participated in team-based development projects, showcasing strong collaborative and problem-solving skills.",
+      "Played a pivotal role in constructing full-stack web applications.",
+    ],
+  },
+  {
+    company: "Indus Net Technologies Pvt Ltd",
+    location: "Kolkata",
     positions: [
       {
         title: "Associate Software Engineer",
@@ -510,17 +673,11 @@ export const workExp = [
         endDate: "present",
       },
     ],
-    // tasks: [
-    //   "Restructured, modularized, and modernized outdated code bases, resulting in cost reduction and a 15% improvement in functionality",
-    //   "Collaborated with project managers to manage end-to-end stages of the systems development lifecycle, achieving 96% adherence to milestones.",
-    //   "Leverage strong problem-solving skills to troubleshoot and resolve technical challenges, resulting in seamless and functional websites",
-    //   "Remedied bugs and introduced enhancements for code releases and patches to optimize systems.",
-    // ],
     tasks: [
-      "Led the restructure, modularization, and modernization of outdated code bases, resulting in significant cost reduction and a notable 15% enhancement in functionality.",
-      "Partnered with project managers to oversee the complete systems development lifecycle, ensuring an impressive 96% adherence to project milestones and deadlines.",
-      "Demonstrated proficiency in problem-solving, effectively troubleshooting and resolving technical challenges, leading to the creation of seamless and highly functional websites.",
-      "Proactively identified and rectified bugs, introducing enhancements for code releases and patches, ultimately optimizing system performance and user experience.",
+      "Restructured, modularized, and modernized outdated code bases, resulting in significant cost reduction and a 15% improvement in functionality.",
+      "Collaborated with project managers to manage all stages of the systems development lifecycle, achieving 96% adherence to project milestones and deadlines.",
+      "Remedied bugs and introduced enhancements for code releases and patches, optimizing system performance and user experience.",
+      "Designed reusable code components employed over 50 times by multiple teams across projects.",
     ],
   },
   {
