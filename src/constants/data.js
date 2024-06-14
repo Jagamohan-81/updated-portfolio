@@ -21,7 +21,7 @@ export const navMenu = [
 
 export const projects = [
   {
-    title: "Run Promo - A Shopify App (DotProsucts)",
+    title: "Run Promo - A Shopify App (DotProducts)",
     image: [
       {
         src: "/assets/images/projects/run-promo-1.png",
