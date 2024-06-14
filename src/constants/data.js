@@ -60,6 +60,10 @@ export const projects = [
           Icon: Icons.NodeJSIcon,
         },
         {
+          title: "Shopoify",
+          Icon: Icons.Shopoify,
+        },
+        {
           title: "Database",
           Icon: Icons.PostgreSqlIcon,
         },
@@ -542,6 +546,10 @@ export const techSkills = [
     category: "Content Management Systems",
     skills: [
       {
+        title: "Shopoify",
+        Icon: Icons.Shopoify,
+      },
+      {
         title: "WordPress",
         Icon: Icons.WordPressIcon,
       },
@@ -549,6 +557,7 @@ export const techSkills = [
         title: "Strapi",
         Icon: Icons.StrapiIcon,
       },
+      
       // {
       //   title: "Wix",
       //   Icon: Icons.WixIcon,
