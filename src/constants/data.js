@@ -77,7 +77,7 @@ export const projects = [
           Icon: Icons.JavascriptIcon,
         },
       ],
-      url: "https://apps.shopify.com/promolane",
+      url: "https://apps.shopify.com/runpromo",
       githubUrl: null,
     },
   },
