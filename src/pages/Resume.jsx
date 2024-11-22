@@ -21,7 +21,7 @@ export default function Resume() {
           If you wish to have a copy of my resume, please click below.
         </p>
         <a
-          href="https://drive.google.com/file/d/1qXuvmgLBxRPL1dtRyZxF_eBg1AghAeLm/view?usp=sharing"
+          href="https://drive.google.com/file/d/18_RJ4xEbR4xnMnpTAB_ruIyKMXkbok7-/view?usp=sharing"
           // href="/assets/Ed-Park-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
