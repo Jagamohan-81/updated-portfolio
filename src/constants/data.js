@@ -20,6 +20,67 @@ export const navMenu = [
 ];
 
 export const projects = [
+   {
+    title: "Smart Warehouse Navigator (DotProducts)",
+    image: [
+      {
+        src: "/assets/images/projects/safar-1.png",
+        altText: "Screenshot of safar home page",
+      },
+      {
+        src: "/assets/images/projects/safar-2.png",
+        altText: "Screenshot of safar home page",
+      },
+      {
+        src: "/assets/images/projects/safar-3.png",
+        altText: "Screenshot of safar home page",
+      },
+    ],
+    ariaLabel:
+      "Opens modal window with more information about the Smart Warehouse Navigator project",
+    details: {
+      description:
+        "The Smart Warehouse Navigator App is a real-time warehouse automation system with digital layout interfaces and remote control features .",
+      technologies: [
+        {
+          title: "HTML",
+          Icon: Icons.HtmlIcon,
+        },
+        {
+          title: "CSS",
+          Icon: Icons.CSSIcon,
+        },
+
+        {
+          title: "React Js",
+          Icon: Icons.ReactIcon,
+        },
+        {
+          title: "ExpressJS",
+          Icon: Icons.ExpressJSIcon,
+        },
+        {
+          title: "NodeJs",
+          Icon: Icons.NodeJSIcon,
+        },
+        {
+          title: "Database",
+          Icon: Icons.PostgreSqlIcon,
+        },
+
+        {
+          title: "API",
+          Icon: Icons.APIIcon,
+        },
+        {
+          title: "JavaScript",
+          Icon: Icons.JavascriptIcon,
+        },
+      ],
+      url: null,
+      githubUrl: null,
+    },
+  },
   {
     title: "Run Promo - A Shopify App (DotProducts)",
     image: [
