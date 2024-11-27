@@ -508,7 +508,7 @@ export const socialMedias = [
     Icon: Icons.LinkedInIcon,
   },
   {
-    href: "https://github.com/Jagamohan-81",
+    href: "https://github.com/Jagamohan-panda",
     ariaLabel: "Goes to Jagamohan Panda&apos;s GitHub profile",
     title: "GitHub Profile",
     Icon: Icons.GitHubIcon,
